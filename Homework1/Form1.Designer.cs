@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bt_res = new System.Windows.Forms.Button();
             this.bt_dot = new System.Windows.Forms.Button();
@@ -59,6 +60,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackgroundImage = global::Homework1.Properties.Resources.calc1;
             this.panel1.Controls.Add(this.bt_res);
             this.panel1.Controls.Add(this.bt_dot);
             this.panel1.Controls.Add(this.bt_0);
@@ -370,8 +372,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 461);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculator";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

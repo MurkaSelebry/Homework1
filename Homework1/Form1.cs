@@ -27,6 +27,7 @@ namespace Homework1
         public Form1()
         {
             InitializeComponent();
+            //not need Icon = (Properties.Resources.ico1);
         }
 
         private void bt_bs_Click(object sender, EventArgs e)
