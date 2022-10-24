@@ -63,6 +63,26 @@ namespace Homework1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap a2675b0ab261060074dcd80cc0019480 {
+            get {
+                object obj = ResourceManager.GetObject("a2675b0ab261060074dcd80cc0019480", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a2675b0ab261060074dcd80cc00194801 {
+            get {
+                object obj = ResourceManager.GetObject("a2675b0ab261060074dcd80cc00194801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap calc1 {
             get {
                 object obj = ResourceManager.GetObject("calc1", resourceCulture);
@@ -76,6 +96,36 @@ namespace Homework1.Properties {
         internal static System.Drawing.Bitmap ico1 {
             get {
                 object obj = ResourceManager.GetObject("ico1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap map_img_877153_1487876453 {
+            get {
+                object obj = ResourceManager.GetObject("map_img_877153_1487876453", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap map_img_877153_14878764531 {
+            get {
+                object obj = ResourceManager.GetObject("map_img_877153_14878764531", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap map_img_877153_14878764532 {
+            get {
+                object obj = ResourceManager.GetObject("map_img_877153_14878764532", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

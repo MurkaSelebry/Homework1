@@ -52,10 +52,31 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Labirint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labirint.Designer.cs">
+      <DependentUpon>Labirint.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecondLevel.Designer.cs">
+      <DependentUpon>SecondLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labirint.resx">
+      <DependentUpon>Labirint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +88,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SecondLevel.resx">
+      <DependentUpon>SecondLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +112,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ico1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_img_877153_1487876453.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a2675b0ab261060074dcd80cc0019480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a2675b0ab261060074dcd80cc00194801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_img_877153_14878764531.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_img_877153_14878764532.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
