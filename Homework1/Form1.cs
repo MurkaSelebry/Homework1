@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Homework1
 {
-    public partial class Form1 : Form
+    public partial class CalculatorForm : Form
     {
         public decimal first_op;
         public decimal second_op;
@@ -24,7 +24,7 @@ namespace Homework1
             div
         }
         op curr_op = op.plus;
-        public Form1()
+        public CalculatorForm()
         {
             InitializeComponent();
             //not need Icon = (Properties.Resources.ico1);

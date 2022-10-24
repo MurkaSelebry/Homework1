@@ -1,6 +1,6 @@
 ﻿namespace Homework1
 {
-    partial class Form1
+    partial class CalculatorForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalculatorForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bt_res = new System.Windows.Forms.Button();
             this.bt_dot = new System.Windows.Forms.Button();
@@ -366,7 +366,7 @@
             this.tb_calc.TabIndex = 0;
             this.tb_calc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_calc_KeyPress);
             // 
-            // Form1
+            // CalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -374,7 +374,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "CalculatorForm";
             this.Text = "Calculator";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
